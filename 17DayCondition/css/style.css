@@ -1,0 +1,19 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+body{
+    background-color: #2a2525;
+    color: white;
+}
+
+.btn{
+    padding: 10px 15px;
+position: fixed;
+top: 400px;
+}

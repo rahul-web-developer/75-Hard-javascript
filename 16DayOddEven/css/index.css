@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+#container {
+  height: 100vh;
+  background: black;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 350px;
+  height: 550px;
+
+  background: rgb(30, 23, 20);
+  margin: 100px auto;
+  /* position: relative; */
+ border-radius: 10px;
+  box-shadow: 0 0px 0 #ddd;
+
+  border-top:60px solid red ;
+  border-bottom:30px solid red ;
+  border-radius: 35px;
+  /* background: #000; */
+  border-right: 18px solid red;
+  border-left: 18px solid red;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ /* justify-content: center; */
+ padding: 0 14px;
+}
+
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+text-align: center;
+
+
+}
+
+
+
+#result{
+    /* border: 1px solid #ccc; */
+    padding: 12px;
+    border-radius: 14px;
+    width: 100%;
+    outline: none;
+    
+    border: none;
+    box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.5);
+    margin: 13px auto;
+    /* padd */
+
+}
+
+
+.cal-btn{
+    border: none;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 4px;
+  background-color: #323232;
+  color: white;
+  width: calc(25% - 8%);
+/* text-align: center; */
+}
+
+.cal-btn:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: 0.3s ease;
+}
+
+.btnparent{
+    display: flex;
+     gap: 16px; 
+    margin-top:12px ;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    /* margin-top: 7px; */
+   align-items: center
+    ;
+   
+    justify-content: center;
+
+}

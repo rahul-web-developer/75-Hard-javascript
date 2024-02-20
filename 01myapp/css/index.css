@@ -1,0 +1,27 @@
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+body{
+    background: #000;
+}
+
+.box2:hover{
+    display: none;
+    background: black;
+}
+
+.animation{
+    background-color: red;
+}

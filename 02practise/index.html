@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    
+    
+    <button onclick="thisusing(this)" id="btn1">this</button>
+
+    
+    <button onclick="size('btn1','red','12px')" id="btn1">small</button>
+
+
+
+    <button onclick="size('btn2','green','20px') " id="btn2">medium</button>
+
+
+    <button  onclick="size('btn3','yellow','30px')"    id="btn3">large</button>
+
+    <script>
+
+
+function thisusing(b){
+
+    
+b.style.backgroundColor = "red"
+
+}
+
+
+function size(idvalue,color,size){
+
+    let button = document.getElementById(idvalue);
+
+
+    console.log(button)
+
+
+    button.style.backgroundColor = color;
+
+    button.style.fontSize = size
+
+
+}
+ 
+      
+
+
+
+
+
+    </script>
+</body>
+</html>
