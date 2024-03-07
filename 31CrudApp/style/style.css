@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+ body{
+  padding: 0;
+  margin: 0;
+  background: #ddd;
+
+ }
+
+
+ #container{
+  width: 75%;
+  background: white;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-left: 20px groove red;
+  border-right: 20px groove red;
+  padding: 32px 24px;
+  overflow-x: hidden;
+
+ }
+
+
+ #title{
+ padding: 0;
+ margin: 0;
+ text-align: center;
+
+ }
+
+
+ #form-card,#form-cardoutput{
+  
+  width: 100%;
+  /* height: 350px; */
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  margin: 24px 0px;
+  box-shadow: 0 0 10px 0px #917373;
+ padding: 24px;
+}
+
+#form-marksheet{
+
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  gap: 24px;
+
+
+}
+#form-marksheet label{
+
+font-size:18px;
+font-weight: bold;
+
+}
+
+
+
+#form-group{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+gap: 6px;
+}
+
+#form-marksheet input,#choose-gender{
+  border: 1px solid #ccc;
+  padding: 14px;
+  flex-grow: 1;
+
+}
+
+
+
+#horizontal{
+  display: flex;
+  gap: 24px ;
+}
+
+
+
+#add-sub{
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  width: fit-content;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+table{
+  margin-top: 32px;
+
+}
+th,td{
+  border: 1px solid black;
+  padding: 8px;
+
+}
+
+
+
+#genrate{
+  border: none;
+  background-color: deeppink;
+  color: white;
+  width: fit-content;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+#dynamic-area{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+
+
+}
+
+#school-title{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+
+#copyright{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+#warning{
+  text-align: center;
+  display: block;
+}
+
+.btn{
+  /* padding: 10px 12px; */
+  background: darkorange;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}

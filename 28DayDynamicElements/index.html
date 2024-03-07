@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 28</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  
+
+
+  <div class="container">
+
+
+
+    <div class="sidebar">
+     <div id="ele-card"> <h1>element creator</h1>
+      <form onsubmit="elementcreator(event)" name="element">
+        <select name="element" id="">
+          <option value="h1">h1</option>
+          <option value="p">p</option>
+          <option value="div">div</option>
+          <option value="button">button</option>
+        </select>
+
+        <input type="text" name="text" id="text" placeholder="enter your test" required="true">
+        <button>create</button>
+      </form>
+    </div>
+     <div id="animation-card"> <h1>Animator creator</h1>
+     
+        <select name="element" id="animation">
+          <option value="animate__animated animate__bounce animate__infinite">Bounce</option>
+          <option value="animate__animated animate__flash animate__infinite">flash</option>
+          <!-- <option value="animate__animated animate__">flash</option> -->
+          option>
+        </select>
+
+    </div>
+    </div>
+
+
+<div class="section">
+ <div id="data">
+<h1>Preve</h1>
+
+<div id="datashow"></div>
+
+
+ </div>
+</div>
+
+
+  </div>
+
+
+  <script src="./app/app.js"></script>
+</body>
+</html>

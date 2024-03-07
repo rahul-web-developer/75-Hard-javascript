@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  height: 100vh;
+  /* width: 100%; */
+  background: red;
+
+}
+
+.sidebar{
+  position: fixed;
+  width: 350px;
+  height: 100%;
+  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  /* background-color: black; */
+z-index: 5;
+padding: 16px ;
+}
+
+
+#ele-card , #animation-card{
+/* background-color: white; */
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+#ele-card h1 ,#animation-card h1{
+  font-family: sans-serif;
+  color: white;
+
+}
+
+#ele-card form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+#ele-card form  select , input , button , #animation-card select{
+  padding:12px ;
+  border: none;
+}
+
+#ele-card form button{
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  background: darkorange;
+  color: white;
+
+}
+  
+
+#animation-card{
+
+}
+
+.section{
+  height: 100vh;
+  /* background: yellow; */
+  margin-left: 350px;
+  width: calc(100% - 350px);
+}
+
+#animation-card{
+  display: none;
+}

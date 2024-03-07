@@ -1,0 +1,118 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+#main{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+display: flex;
+padding: 5vw 10vw;
+
+
+}
+
+#left{
+  height: 100%;
+  width: 45%;
+  background: blue
+  ;
+  background-image: url('https://www.shutterstock.com/image-vector/vector-cartoon-music-note-icon-260nw-1165584241.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+#right{
+  height: 100%;
+  width: 55%;
+  background: rgb(9, 6, 6);
+
+}
+
+#right h3{
+  font-size: 40px;
+}
+
+#all-songs{
+  background-color: rgb(124, 98, 98);
+  height: 85%;
+}
+
+.song-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ border-top: 1px solid #fff;
+ padding: 10px 10px;
+
+
+  
+}
+.song-card:nth-child(1){
+
+  background-color: red;
+
+
+}
+
+
+.song-card  .part-1{
+ display: flex;
+ align-items: center; 
+}
+
+.song-card h2{
+  font-size: 22px;
+
+  
+}
+
+.song-card h3{
+  font-size: 16px;
+}
+
+
+.song-card img{
+
+  height: 55px;
+  width: 55px;
+
+}
+.song-card:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+#player{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  height: 15%;
+  width: 100%;
+  background-color: rgb(1, 1, 0);
+  color: white;
+}
+
+#player h3{
+  
+  background: red;
+  padding: 10px;
+   border-radius: 50%;
+
+}
+#player h3 i{
+  font-size: 24px;
+
+}
+
+#player h3:active{
+  scale: 0.9;
+}

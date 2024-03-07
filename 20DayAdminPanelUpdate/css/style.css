@@ -1,0 +1,288 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden ;
+}
+#container{
+    /* background: #ddd; */
+    height: 100vh;
+    color: black;
+    
+}
+
+
+.sidenavclass{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: red;
+    width: 250px;
+    height:100%;
+}
+
+
+#section{
+    /* background: black; */
+    /* width: 900px; */
+  width: calc(100% - 250px);
+  height: 100vh;
+  margin-left: 250px;
+  overflow: hidden;
+}
+
+#section #topnav{
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 250px);
+  
+    background:blue;
+    padding: 24px 24px;
+}
+
+/* #topnav button{
+    padding: 8px 15px;
+    font-size: 18px;
+
+} */
+
+.demo{
+  width: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+#toggler{
+
+width: 48px;
+height: 48px;
+border: none;
+background: white;
+font-size: 24px;
+  border-radius: 50%;
+display: none;
+}
+
+
+#toggler:hover{
+    background-color:darkblue;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#brand{
+    font-family: sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#toolbar{
+    display: flex;
+     align-items: center;
+     gap: 16px;
+}
+
+
+#sidenav-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+}
+
+#sidenav-menu button{
+    border: none;
+ padding: 10px 13px;
+ font-family: sans-serif;
+ font-weight: 600;
+
+
+}
+#sidenav-menu button:hover{
+    cursor: pointer;
+    background: darkorange;
+    transition: 0.3s;
+    color: white;
+    
+
+}
+
+#content{
+    color: white;
+ padding: 70px 14px; 
+
+
+
+}
+
+
+ #Signin{
+    display: none;
+
+}
+
+ .registerclass{
+    background: darkorange;
+}
+/* #Signin{
+
+} */
+#register, #Signin{
+    border: 2px solid red;
+    width: 350px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: black;
+    
+    animation: border 0.6s ease-in-out infinite reverse;
+}
+input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    
+}
+
+
+#fullname-message{
+    display: none;
+}
+
+@keyframes border {
+
+    0%{
+        border-top: 2px solid blue;
+
+    }
+    25%{
+        border-right: 2px solid rgb(21, 233, 63);
+        transition: 0.8s ease;
+
+    }
+    50%{
+        border-bottom: 2px solid rgb(143, 224, 12);
+       
+    }
+    75%{
+        border-left: 2px solid rgb(17, 242, 246);
+
+    }
+    100%{
+        border-bottom: 2px solid rgb(224, 12, 174);
+
+    }
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+
+#card{width: 350px;
+   padding: 25px;
+color: black;
+}
+
+
+
+
+form button[type="submit"]{
+    padding: 14px 24px;
+    border: none;
+    background-color: darkorange;
+   width: fit-content;
+   cursor: pointer;
+
+}
+
+
+#label,#signintitle{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+
+    padding: 10px;
+}
+
+@media(max-width:768px) {
+
+    #sidenav{
+      width: 0;
+        
+    }
+
+    #section{
+        width: 100%;
+
+    }
+
+    #section{
+        margin-left: 0px;
+
+    }
+
+   #section #topnav{
+        left: 0px;
+        width: 100%;
+    }
+    #toggler{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+.btnclass{
+    background-color: aqua;
+    
+    padding: 13px 22px !important;
+    border: none;
+    border-radius: 4px ;
+    cursor: pointer;
+    border-radius: 50%;
+
+    /* background: dodgerblue !important; */
+
+}
+
+.hideshow{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+
+}
+
+.hideshow i{
+
+    font-size: 20px;
+    border-radius: 50%;
+
+
+}
+
+input:focus{
+    outline: none;
+    
+}

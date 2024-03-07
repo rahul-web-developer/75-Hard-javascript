@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Player</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./app/app.js"></script>
+
+</head>
+<body>
+ 
+<div id="container">
+  
+
+<div id="player" class="animate__animated animate__bounce">
+
+<div id="img-box" >
+
+  <img src="https://img.freepik.com/premium-photo/bright-musical-background_476363-6644.jpg" alt="" width="100%" id="bg">
+
+  <input type="file" id="upload-input" accept="audio/*">
+
+</div> 
+
+
+
+<div
+id="content">
+<marquee>
+  <h1 id="title">song name</h1>
+</marquee>
+<p id="size">size : 10.6 mb</p>
+<div id="progress-info">
+<span id="current-du">00:00</span>
+
+<div id="progress">
+
+
+ <div id="progress-bar">
+
+
+ </div>
+ <!-- progress bar end here -->
+
+
+</div>
+<!-- progress end here -->
+
+<span id="full-duration">10:00</span>
+
+</div>
+<!-- progress-info end here -->
+<div id="controlls">
+
+  <div class="volume-btn">
+    <button>
+   
+      <input type="range" step="0.1" min="0" max="100" name="range" id="range">
+    
+  </button>
+  <button id="speaker" class="toolbars" disabled>
+
+   
+    <i class="ri-volume-down-line" id="volume"></i>
+  </button>
+  </div>
+  <button id="pre" class="toolbars" disabled>
+    <i class="ri-play-reverse-line"></i>
+  </button>
+<button id="play" class="toolbars" disabled>
+  <i class="ri-play-circle-line" id="playicon"></i>
+</button>
+<button id="next" class="toolbars" disabled>
+  <i class="ri-play-line"></i>
+</button>
+<button id="loop" class="toolbars" disabled>
+  <i class="ri-repeat-line" id="loopicon"></i>
+</button>
+</div>
+</div>
+<!-- content end here -->
+
+</div>
+<!-- player end here -->
+
+</div>
+<!-- container end here -->
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container-1{
+
+width: 80%;
+height: 100vh;
+background: red;
+margin: 0 auto;
+display: flex;
+}
+
+#one{
+  width: 75%;
+  height: 100%;
+  background: blue;
+
+}
+
+
+
+#prev{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+#two{
+  width: 25%;
+  height: 100%;
+  background: yellow;
+
+}
+
+
+#two img{
+  height: 25%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.thumb:hover{
+  animation:pulse;
+  animation-duration: 0.5s;
+}

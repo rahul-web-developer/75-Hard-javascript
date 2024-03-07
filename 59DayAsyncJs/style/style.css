@@ -1,0 +1,102 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#title{
+  width: 300px;
+  font-size: 24px;
+  border: 1px solid red;
+  padding: 10px;color: green;
+}
+
+#main{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 10px solid rebeccapurple;
+  margin: 50px auto;
+justify-content: center;
+gap: 10px;
+border-radius: 50%;
+background-image: url('https://media.istockphoto.com/id/672291718/photo/dark-gears-background.webp?b=1&s=170667a&w=0&k=20&c=fyUjJ1AR7h3ISk-wAjCZrk3r3qdrS9sdZAmthFE0mJU=');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 1;
+
+animation: round 8s  infinite normal ;
+position: relative;
+}
+
+#hour{
+  background: red;
+  color: aliceblue;
+  border-radius: 50%;
+  padding: 20px;
+/* position: absolute; */
+
+/* left: 40px; */
+animation: buble 0.6s  ease-in-out infinite normal ;
+
+
+}
+
+
+
+
+#minute{
+  color: aliceblue;
+  
+  border-radius: 50%;
+  padding: 20px;
+background: #000;
+
+
+
+}
+#second{
+  color: aliceblue;
+  border-radius: 50%;
+  padding: 20px;
+  background: blue;
+
+}
+
+@keyframes round {
+
+  0%{
+    border-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  25%{
+    border-color: rgb(11, 211, 204);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  50%{
+    border-color: green;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  75%{
+    border-color: rgb(126, 224, 13);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  100%{
+    border-color: rgb(8, 19, 233);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+
+  
+}

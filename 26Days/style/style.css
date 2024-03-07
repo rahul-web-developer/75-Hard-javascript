@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+/* #btn{
+  border: none;
+  background: deeppink;
+  font-size: 40px;
+  border-radius: 8px;
+   color: white;
+
+} */
+
+.bgchanger{
+  background: red;
+}
