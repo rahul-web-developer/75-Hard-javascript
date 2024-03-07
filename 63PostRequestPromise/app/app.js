@@ -29,11 +29,16 @@ window.onload = function(){
 
       shodata.innerHTML += `
 
-      <h3>${data.title}</h3>
       
       <div class="card">
       <img src="${data.thumbnailUrl}"/>
       
+      
+      <div>
+      <h3>${data.title}</h3>
+<a href="${data.url}" class="link" download="${'true'}.jpg">Learn More</a>
+      </div>
+
       </div>
       `
     })
